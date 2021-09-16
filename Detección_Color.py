@@ -4,7 +4,8 @@
 #Fernando Cerriteño Magaña A01702790
 
 #Este programa utiliza la camara para poder generar una mascara, la cual filtre todos los objetos que sean de color rojo, para poder generar una capa final, 
-#la cual muestre video de lo que la camara esta viendo en rojo
+#la cual muestre video de lo que la camara esta viendo en rojo. El color que se filtra se puede cambiar desde la variable lower_red, la cual indica el color 
+#en HSV que se va a filtrar.
 
 import numpy as np
 import cv2
