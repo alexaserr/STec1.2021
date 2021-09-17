@@ -19,15 +19,13 @@ while (True):
     hav = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
     #HSV = hue sat value
-    lower_red = np.array([150,100,50])
-    uper_red = np.array([255,255,255])
+    lower_red = np.array([50,150,150])
+    uper_red = np.array([180,255,255])
     
     #Se crea una mascara para filtrar el color
     mask = cv2.inRange(hav, lower_red,uper_red)
     #Se crea el resultado del filtro
     res = cv2.bitwise_and(frame, frame, mask = mask)
-
-    #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
     #Se muestra el resultado del visor original, la mascara y el resultado final
     cv2.imshow('Visor',frame)
