@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "CompVision-FacialRecognition"
+version = "0.1.0"
+description = "This code was created based on one seen on GeeksForGeeks. It is based on Computer Vision, and it includes the Open Source CV2 package. What the code does is recognizing a face with with eyes and placing rectangles in front of the eyes and in the face as a whole."
+authors = ["Alexa Serrano Negrete <A01654063@itesm.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+opencv-python = "^4.5.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
