@@ -21,6 +21,7 @@ while (True):
     cv2.imshow('Mask', mask)
     cv2.imshow('Result', res)
 
+    #Detección de caras
     grayscale = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
     faces = face_cascade.detectMultiScale(grayscale, 1.3, 5)
@@ -36,7 +37,7 @@ while (True):
             cv2.rectangle(roi_color, (ex, ey), (ex+ew, ey+eh),
             (0, 127, 255), 2)
 
-        cv2.imshow('Faces', img)
+        cv2.imshow('Faces',img)
 
     k = cv2.waitKey(30) & 0xff
     if k == 27:
