@@ -1,4 +1,3 @@
-# This code was created based on one seen on GeeksForGeeks.
 # It is based on Computer Vision, and it includes the Open Source CV2
 # package. What the code does is recognizing a face with with eyes
 # and placing rectangles in front of the eyes and in the face as a whole.
