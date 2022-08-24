@@ -1,11 +1,12 @@
-#Este programa fue creado con la documentación obtenida de la pagina geeksforgeeks https://www.geeksforgeeks.org/python-opencv-capture-video-from-camera/ creado por KaranGupta5
-#Asi mismo se siguio el código creado en el video Color Filtering - OpenCV with Python for Image and Video Analysis 7 por el usuario sentdex https://www.youtube.com/watch?v=CCOXg75HkvM
-#Es importante tener instalado el paquete opencv-python para poder correr el programa
-#Fernando Cerriteño Magaña A01702790
+# Este programa fue creado con la documentación obtenida de la pagina geeksforgeeks https://www.geeksforgeeks.org/python-opencv-capture-video-from-camera/ 
+# creado por KaranGupta5. Así mismo, se siguio el código creado en el video Color Filtering - OpenCV with Python for Image and Video Analysis 7 por el 
+# usuario sentdex https://www.youtube.com/watch?v=CCOXg75HkvM
+# Es importante tener instalado el paquete opencv-python para poder correr el programa
+# Fernando Cerriteño Magaña A01702790
 
-#Este programa utiliza la camara para poder generar una mascara, la cual filtre todos los objetos que sean de color rojo, para poder generar una capa final, 
-#la cual muestre video de lo que la camara esta viendo en rojo. El color que se filtra se puede cambiar desde la variable lower_red, la cual indica el color 
-#en HSV que se va a filtrar.
+# Este programa utiliza la camara para poder generar una mascara, la cual filtre todos los objetos que sean de color rojo, para poder generar una capa final, 
+# la cual muestre video de lo que la camara esta viendo en rojo. El color que se filtra se puede cambiar desde la variable lower_red, la cual indica el color 
+# en HSV que se va a filtrar.
 
 import numpy as np
 import cv2
